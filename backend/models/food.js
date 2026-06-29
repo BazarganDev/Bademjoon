@@ -16,8 +16,8 @@ const Food = database.define(
             allowNull: false,
             unique: true,
         },
-        category_id: {
-            type: DataTypes.INTEGER,
+        category: {
+            type: DataTypes.STRING,
             allowNull: false,
         },
         calories_per_100: {
