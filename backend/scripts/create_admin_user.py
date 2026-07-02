@@ -2,13 +2,12 @@ import requests
 
 API_URL = "http://localhost:5000/auth/register"
 
-#! DO NOT HARDCODE ADMIN DATA. USE ENV INSTEAD IN PRODUCTION!
 admin_payload = {
     "first_name": "Mohammad",
     "last_name": "Bazargan",
-    "mobile": "09014317978",
+    "mobile": "09000000000",
     "username": "mammadbazargan",
-    "email": "jc.mhmd.bazargan850627@gmail.com",
+    "email": "testadmin@yahoo.com",
     "password": "123456789",
     "role": "admin",
 }
